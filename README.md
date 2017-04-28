@@ -2,7 +2,7 @@
 ## Installation
 1) Clone the above repository.
 ```
-git clone https://github.com/jay3dec/NodeTaskApp
+git clone https://github.com/ErrEss/Node.js-MySQL.git
 ```
 
 2) Navigate to the project repository and install the dependencies.
