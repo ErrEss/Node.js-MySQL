@@ -1,24 +1,24 @@
 {
-  "name": "NodeTaskApp",
+  "name": "taskmanager",
   "version": "1.0.0",
   "description": "Node.js and MySQL app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jay3dec/NodeTaskApp"
+    "url": "git+https://github.com/ErrEss/Node.js-MySQL.git"
   },
-  "author": "Jay",
-  "license": "MIT",
+  "author": "Ripunjay Sharma",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jay3dec/NodeTaskApp/issues"
+    "url": "https://github.com/ErrEss/Node.js-MySQL/issues"
   },
-  "homepage": "https://github.com/jay3dec/NodeTaskApp",
+  "homepage": "https://github.com/ErrEss/Node.js-MySQL#readme",
   "dependencies": {
-    "bootstrap": "^3.3.6",
-    "express": "^4.12.3",
-    "mysql": "^2.6.2"
-  }
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {}
 }

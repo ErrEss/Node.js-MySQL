@@ -1,0 +1,40 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '.bin' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of C:\Users\MUJ\TaskManager\package.json
+5 verbose installManyTop reading scoped package data from C:\Users\MUJ\TaskManager\node_modules\body-parser\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\MUJ\TaskManager\node_modules\bootstrap\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\MUJ\TaskManager\node_modules\express\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\MUJ\TaskManager\node_modules\mysql\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\MUJ\TaskManager\node_modules\node-mysql\package.json
+10 info package.json node-mysql@0.4.2 No license field.
+11 verbose readDependencies loading dependencies from C:\Users\MUJ\TaskManager\package.json
+12 silly cache add args [ '.bin', null ]
+13 verbose cache add spec .bin
+14 silly cache add parsed spec Result {
+14 silly cache add   raw: '.bin',
+14 silly cache add   scope: null,
+14 silly cache add   name: null,
+14 silly cache add   rawSpec: '.bin',
+14 silly cache add   spec: 'C:\\Users\\MUJ\\TaskManager\\.bin',
+14 silly cache add   type: 'local' }
+15 error addLocal Could not install C:\Users\MUJ\TaskManager\.bin
+16 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\MUJ\TaskManager\.bin'
+16 verbose stack     at Error (native)
+17 verbose cwd C:\Users\MUJ\TaskManager
+18 error Windows_NT 10.0.14393
+19 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" ".bin"
+20 error node v4.5.0
+21 error npm  v2.15.9
+22 error path C:\Users\MUJ\TaskManager\.bin
+23 error code ENOENT
+24 error errno -4058
+25 error syscall open
+26 error enoent ENOENT: no such file or directory, open 'C:\Users\MUJ\TaskManager\.bin'
+26 error enoent This is most likely not a problem with npm itself
+26 error enoent and is related to npm not being able to find a file.
+27 verbose exit [ -4058, true ]
