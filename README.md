@@ -6,4 +6,4 @@ cd NodeTaskApp
 npm install
 ```
 
-2) Point your browser to `http://localhost:3000` and you should have the app running.
+2) Point your browser to `http://localhost:3000` to have the app running.
